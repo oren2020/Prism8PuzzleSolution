@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9M03RFgTsIeaOH3bP37Sgae4/+qxoh1LrdhDloD2o9uTBG9mJxKLpK4NOI4BMHMy5uBPApEdXTkEY548Za+87g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\froon\\source\\repos\\Prism8Puzzle\\Prism8Puzzle.Core\\Prism8Puzzle.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\froon\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512"
+  ],
+  "logs": []
+}

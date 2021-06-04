@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Controls"
+                    xmlns:ctrlsConverters="clr-namespace:Controls.ControlsConverters">
+
+    <ctrlsConverters:NumberToBooleanConverter x:Key="OpacityConverter"/>
+
+    <Style TargetType="{x:Type Button}" x:Key="btnTile">
+        <Setter Property="Content" Value="{Binding Number}"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="brdr" CornerRadius="3" BorderBrush="Gray" BorderThickness="1" >
+                        <Border.Background>
+                            <RadialGradientBrush RadiusX="1" RadiusY="1">
+                                <GradientStop Color="White" Offset="0" />
+                                <GradientStop Color="Gray" Offset="1" />
+                            </RadialGradientBrush>
+                        </Border.Background>
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter TargetName="brdr" Property="Background" Value="GhostWhite" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=Number, Converter={StaticResource OpacityConverter}}" Value="true">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=Number, Converter={StaticResource OpacityConverter}}" Value="false">
+                <Setter Property="Visibility" Value="Visible"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <DataTemplate x:Key="btnTileItemTemplate">
+        <Button Style="{StaticResource btnTile}"
+                Command="{Binding CustomCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=local:PuzzleControl}}"
+                CommandParameter="{Binding Content, RelativeSource={RelativeSource Self}}">
+        </Button>
+    </DataTemplate>
+
+    <!--<Style TargetType="{x:Type TextBox}" x:Key="tbTile">
+        <Setter Property="Text" Value="{Binding Number}"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="30"/>
+    </Style>
+    <DataTemplate x:Key="tbTileItemTemplate">
+        <TextBox Style="{StaticResource tbTile}">
+        </TextBox>
+    </DataTemplate>-->
+
+    <Style TargetType="{x:Type local:PuzzleControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:PuzzleControl}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Border BorderBrush="Black" BorderThickness="1">
+                                <ItemsControl x:Name="myMatrix" ItemsSource="{TemplateBinding ItemsSource}" ItemTemplate="{StaticResource btnTileItemTemplate}">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <UniformGrid Rows="3" Columns="3" />
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                </ItemsControl>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MbGT+dHyNFZM5vBuIGcrPWmCcmCV/+aYUr2QI9UvddVXfxn8V1qUjE4Nvw9SofOfO12nG6+wU4S46poBRTVn0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\froon\\source\\repos\\Prism8Puzzle\\Modules\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\froon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\froon\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\froon\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}

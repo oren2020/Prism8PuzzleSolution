@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="StatusBar.Views.StatusBarView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converters="clr-namespace:Converters;assembly=Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300"
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+    
+    <UserControl.Resources>
+        <converters:ImageVisibilityMultiParamConverter x:Key="ImageVisibilityMultiParamConverter"/>
+        <converters:VisibilityConverter x:Key="VisibilityConverter"/>
+        <converters:ImageSourceMultiValueConverter x:Key="ImageSourceMultiValueConverter"/>
+    </UserControl.Resources>
+    
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Margin="3" FontSize="28" HorizontalAlignment="Center">Steps :</TextBlock>
+        <TextBlock Margin="3" FontSize="28" HorizontalAlignment="Center"
+                   Text="{Binding MovesCount}"></TextBlock>
+        <TextBlock Margin="3" FontSize="28" HorizontalAlignment="Center"> /</TextBlock>
+        <TextBlock Margin="3" FontSize="28" HorizontalAlignment="Center"
+                   Text="{Binding MinMoves}"></TextBlock>
+        <Image Height="28" Width="28" VerticalAlignment="Center" HorizontalAlignment="Right"
+               Visibility="{Binding IsGmeOver, Converter={StaticResource VisibilityConverter}}">
+            <Image.Source>
+                <MultiBinding Converter="{StaticResource ImageSourceMultiValueConverter}">
+                    <Binding Path="MovesCount"/>
+                    <Binding Path="MinMoves"/>
+                    <Binding Path="IsGmeOver"/>
+                </MultiBinding>
+            </Image.Source>
+        </Image>
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\icons8.png" />
+    <None Remove="Images\lessThan.png" />
+    <None Remove="Images\moreThan.png" />
+    <None Remove="Images\okHand.png" />
+    <None Remove="Images\play.png" />
+    <None Remove="Images\restart.png" />
+    <None Remove="Images\settings.png" />
+    <None Remove="Images\shuffleBlack.png" />
+    <None Remove="Images\solution.png" />
+    <None Remove="Images\thumbUp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icons8.png" />
+    <Resource Include="Images\lessThan.png" />
+    <Resource Include="Images\moreThan.png" />
+    <Resource Include="Images\okHand.png" />
+    <Resource Include="Images\play.png" />
+    <Resource Include="Images\restart.png" />
+    <Resource Include="Images\settings.png" />
+    <Resource Include="Images\shuffleBlack.png" />
+    <Resource Include="Images\solution.png" />
+    <Resource Include="Images\thumbUp.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\bin\Debug\netcoreapp3.1\Library.deps.json
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.csprojAssemblyReference.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.g.resources
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Library\Library\obj\Debug\netcoreapp3.1\Library.pdb

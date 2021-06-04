@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3V5Cm1bC1E2TQ2bWZzrx5YGbbv1QyQzBqZs+tIbpjuMF2QQvZQl44Vuw2I3wK9yFODZsZJEkCfQ7oy8KKJ5DcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\froon\\source\\repos\\Prism8Puzzle\\Modules\\ToolBar\\ToolBar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\froon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\froon\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\froon\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}

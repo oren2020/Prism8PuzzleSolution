@@ -1,0 +1,14 @@
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Services.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Prism8Puzzle.Core.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Prism8Puzzle.Core.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Modules\Services\obj\Debug\netcoreapp3.1\Services.pdb

@@ -1,0 +1,9 @@
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\bin\Debug\netcoreapp3.1\Converters.deps.json
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\bin\Debug\netcoreapp3.1\Converters.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\bin\Debug\netcoreapp3.1\Converters.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.AssemblyInfoInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.AssemblyInfo.cs
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.csproj.CoreCompileInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Converters\obj\Debug\netcoreapp3.1\Converters.csprojAssemblyReference.cache

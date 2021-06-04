@@ -1,0 +1,16 @@
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\bin\Debug\netcoreapp3.1\Controls.deps.json
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\bin\Debug\netcoreapp3.1\Controls.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\bin\Debug\netcoreapp3.1\Controls.pdb
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.csprojAssemblyReference.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls_MarkupCompile.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls_MarkupCompile.lref
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Themes\Generic.baml
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Themes\MyBusyIndicator.baml
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Themes\PuzzleControl.baml
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.g.resources
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.AssemblyInfoInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.AssemblyInfo.cs
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.csproj.CoreCompileInputs.cache
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.dll
+C:\Users\froon\source\repos\Prism8Puzzle\Controls\Controls\obj\Debug\netcoreapp3.1\Controls.pdb
